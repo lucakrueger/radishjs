@@ -53,9 +53,10 @@ http://example.com/value
 ```
 
 **Server Response**
-```json
+```js
 {
     value-attr: "data ..."
+    ...
 }
 ```
 
@@ -101,9 +102,10 @@ fetch('http://example.com/request', {
 ```
 
 **Server Response**
-```json
+```js
 {
-    value-binding: "data ...",
+    value-binding: "data ..."
+    ...
 }
 ```
 
