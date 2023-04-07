@@ -9,12 +9,13 @@ RadishJS is a library to help adding dynamic content on server side rendered, st
 Include `radish.js` in your `html` file.
 
 ```html
-<!Doctype html>
-<html>
-    <head>
-        <script src="radish.js" url="example.com">
-    </head>
-<html>
+<script src="radish.js" url="http://example.com">
+```
+
+or
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/lucakrueger/radishjs@master/radish.js" url="http://example.com">
 ```
 
 using the `url` attribute is optional and just specifies a gloabl url used by all values.
