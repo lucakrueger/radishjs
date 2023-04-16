@@ -4,7 +4,7 @@
 
 RadishJS is a library to help adding dynamic content on server side rendered, static websites
 
-## Usuage
+## Usage
 
 Include `radish.js` in your `html` file.
 

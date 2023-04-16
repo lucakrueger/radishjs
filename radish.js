@@ -42,14 +42,11 @@ class RadishDynamic extends HTMLElement {
 
     connectedCallback() {
         let placeholder = this.getAttribute('placeholder')
-        if(placeholder) {
-            this.innerText = placeholder
-        }
+        if(placeholder) this.innerText = placeholder
 
         let get = this.getAttribute('get')
-
         let bind = this.getAttribute('bind')
-        if(bind !== null) {
+        if(bind !== null) { // Add binding
             window.radishBounds[bind] = {
                 callback: (res) => {
                     this.updateText(bind, res)
