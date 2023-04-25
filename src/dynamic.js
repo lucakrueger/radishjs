@@ -76,3 +76,7 @@ class RadishDynamic extends HTMLElement {
 }
 
 customElements.define('external-value', RadishDynamic)
+
+exports = {
+    updateBinding, updateBindings
+}
