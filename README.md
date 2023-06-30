@@ -18,7 +18,7 @@ or
 <script src="https://cdn.jsdelivr.net/gh/lucakrueger/radishjs@master/radish.js" url="http://example.com">
 ```
 
-using the `url` attribute is optional and just specifies a gloabl url used by all values.
+using the `url` attribute is optional and just specifies a global url used by all values.
 
 Add Elements by using the Tag
 ```html
